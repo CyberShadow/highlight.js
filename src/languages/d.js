@@ -37,7 +37,8 @@ function(hljs) {
       'pragma private protected public pure ref return scope shared static struct ' +
       'super switch synchronized template this throw try typedef typeid typeof union ' +
       'unittest version void volatile while with __FILE__ __LINE__ __gshared|10 ' +
-      '__thread __traits __DATE__ __EOF__ __TIME__ __TIMESTAMP__ __VENDOR__ __VERSION__',
+      '__thread __traits __DATE__ __EOF__ __TIME__ __TIMESTAMP__ __VENDOR__ __VERSION__ ' +
+      '__MODULE__ __FUNCTION__ __PRETTY_FUNCTION__',
     built_in:
       'bool cdouble cent cfloat char creal dchar delegate double dstring float function ' +
       'idouble ifloat ireal long real short string ubyte ucent uint ulong ushort wchar ' +
